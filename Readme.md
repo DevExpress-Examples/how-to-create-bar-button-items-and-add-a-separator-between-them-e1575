@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Window1.xaml](./CS/BarItemLinkSeparatorEx/Window1.xaml) (VB: [Window1.xaml](./VB/BarItemLinkSeparatorEx/Window1.xaml))
-* [Window1.xaml.cs](./CS/BarItemLinkSeparatorEx/Window1.xaml.cs) (VB: [Window1.xaml](./VB/BarItemLinkSeparatorEx/Window1.xaml))
+* [Window1.xaml.cs](./CS/BarItemLinkSeparatorEx/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/BarItemLinkSeparatorEx/Window1.xaml.vb))
 <!-- default file list end -->
 # How to create bar button items and add a separator between them
 
