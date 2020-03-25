@@ -12,11 +12,11 @@
 
         <dxb:BarContainerControl Grid.Row="0">
             <dxb:ToolBarControl Caption="Main Toolbar"  BarItemHorizontalIndent="10">
-                <dxb:BarButtonItem Content="Undo" Glyph="{dx:DXImage Image=Undo_16x16.png}" ItemClick="itemClick"/>
-                <dxb:BarButtonItem Content="Redo" Glyph="{dx:DXImage Image=Redo_16x16.png}" ItemClick="itemClick"/>
+                <dxb:BarButtonItem Content="Undo" Glyph="{dx:DXImage Image=undo16x16.png}" ItemClick="itemClick"/>
+                <dxb:BarButtonItem Content="Redo" Glyph="{dx:DXImage Image=redo16x16.png}" ItemClick="itemClick"/>
                 <dxb:BarItemLinkSeparator />
-                <dxb:BarButtonItem Content="Copy" Glyph="{dx:DXImage Image=Copy_16x16.png}" ItemClick="itemClick"/>
-                <dxb:BarButtonItem Content="Paste" Glyph="{dx:DXImage Image=Paste_16x16.png}" ItemClick="itemClick"/>
+                <dxb:BarButtonItem Content="Copy" Glyph="{dx:DXImage Image=copy16x16.png}" ItemClick="itemClick"/>
+                <dxb:BarButtonItem Content="Paste" Glyph="{dx:DXImage Image=paste16x16.png}" ItemClick="itemClick"/>
 
             </dxb:ToolBarControl>
         </dxb:BarContainerControl>
