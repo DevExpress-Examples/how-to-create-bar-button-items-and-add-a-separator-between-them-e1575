@@ -10,7 +10,7 @@
 * [Window1.xaml](./CS/BarItemLinkSeparatorEx/Window1.xaml) (VB: [Window1.xaml](./VB/BarItemLinkSeparatorEx/Window1.xaml))
 * [Window1.xaml.cs](./CS/BarItemLinkSeparatorEx/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/BarItemLinkSeparatorEx/Window1.xaml.vb))
 <!-- default file list end -->
-# How to create bar button items and add a separator between them
+# WPF Bars - Use separators to group bar item links
 
 
 <p>This example shows how to create bar button items (BarButtonItem objects) and add a link separator between them. The separator is created using the DevExpress.Wpf.Bars.BarItemLinkSeparator class.</p>
