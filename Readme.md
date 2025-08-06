@@ -19,18 +19,20 @@ Use this technique when you want to:
 
 ## Implementation details
 
-### Toolbar Definition
+### Create Toolbar
 
 Define a `ToolBarControl` inside a [`BarContainerControl`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarContainerControl) with five command buttons:
 
 ```xaml
-<dxb:ToolBarControl Caption="Main Toolbar">
-    <dxb:BarButtonItem Content="Undo" Glyph="{dx:DXImage Image=undo16x16.png}" />
-    <dxb:BarButtonItem Content="Redo" Glyph="{dx:DXImage Image=redo16x16.png}" />
-    <dxb:BarItemLinkSeparator />
-    <dxb:BarButtonItem Content="Copy" Glyph="{dx:DXImage Image=copy16x16.png}" />
-    <dxb:BarButtonItem Content="Paste" Glyph="{dx:DXImage Image=paste16x16.png}" />
-</dxb:ToolBarControl>
+<dxb:BarContainerControl Grid.Row="0">
+    <dxb:ToolBarControl Caption="Main Toolbar">
+        <dxb:BarButtonItem Content="Undo" Glyph="{dx:DXImage Image=undo16x16.png}" />
+        <dxb:BarButtonItem Content="Redo" Glyph="{dx:DXImage Image=redo16x16.png}" />
+        <dxb:BarItemLinkSeparator />
+        <dxb:BarButtonItem Content="Copy" Glyph="{dx:DXImage Image=copy16x16.png}" />
+        <dxb:BarButtonItem Content="Paste" Glyph="{dx:DXImage Image=paste16x16.png}" />
+    </dxb:ToolBarControl>
+</dxb:BarContainerControl>
 ```
 
 ### Visual Groups
