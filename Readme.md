@@ -11,7 +11,7 @@ This example uses the [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/D
 
 ![Group Bar Items with Separators](./Images/bar-separator.jpg)
 
-Use this technique when you want to:
+Use [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarItemLinkSeparator) when you want to:
 
 - Group related commands visually to improve toolbar clarity.
 - Separate logical blocks of actions (for example, `Undo`/`Redo` and `Copy`/`Paste`) without introducing new containers.
@@ -35,19 +35,9 @@ Define a `ToolBarControl` inside a [`BarContainerControl`](https://docs.devexpre
 </dxb:BarContainerControl>
 ```
 
-### Visual Groups
+### Group Related Commands
 
-The [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarItemLinkSeparator) element creates a visual break between the `Undo/Redo` group and the `Copy/Paste` group, to help users quickly distinguish between command categories without affecting the layout or behavior.
-
-### Handle Item Click 
-
-Each button handles clicks through a shared event handler:
-
-```csharp
-private void itemClick(object sender, DevExpress.Xpf.Bars.ItemClickEventArgs e) {
-    MessageBox.Show("Item " + e.Item.Content + " has been clicked.");
-}
-```
+The [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarItemLinkSeparator) adds a visual break between `Undo/Redo` and `Copy/Paste` groups. Separators allow users to quickly distinguish between different command categories.
 
 ## Files to Review
 
