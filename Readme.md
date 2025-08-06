@@ -17,7 +17,7 @@ Use [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars
 - Separate logical blocks of actions (for example, `Undo`/`Redo` and `Copy`/`Paste`) without introducing new containers.
 - Enhance the usability of complex toolbars.
 
-## Implementation details
+## Implementation Details
 
 ### Create Toolbar
 
