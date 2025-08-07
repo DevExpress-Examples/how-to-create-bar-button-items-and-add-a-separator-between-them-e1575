@@ -53,7 +53,7 @@ The [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars
 
 ## More Examples
 
-* [WPF Bars – Create a container for BarItem links](https://github.com/DevExpress-Examples/wpf-bars-create-baritem-link-container)
+* [WPF Bars – Create a Container for BarItem Links](https://github.com/DevExpress-Examples/wpf-bars-create-baritem-link-container)
 * [MVVM Application with WPF Bars](https://github.com/DevExpress-Examples/mvvm-application-with-wpf-bars)
 * [WPF PDF Viewer – Customize the Integrated Bar's Commands](https://github.com/DevExpress-Examples/wpf-pdf-viewer-customize-bar-manager)
 
