@@ -13,9 +13,9 @@ This example uses the [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/D
 
 Use [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarItemLinkSeparator) when you want to:
 
-- Group related commands visually to improve toolbar clarity.
-- Separate logical blocks of actions (for example, `Undo`/`Redo` and `Copy`/`Paste`) without introducing new containers.
-- Enhance the usability of complex toolbars.
+* Group related commands visually to improve toolbar clarity.
+* Separate logical blocks of actions (for example, `Undo`/`Redo` and `Copy`/`Paste`) without introducing new containers.
+* Enhance the usability of complex toolbars.
 
 ## Implementation Details
 
@@ -49,7 +49,7 @@ The [`BarItemLinkSeparator`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars
 * [BarItemLinkSeparator](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarItemLinkSeparator)
 * [ToolBarControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.ToolBarControl)
 * [BarContainerControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarContainerControl)
-* [Bars Overview](https://docs.devexpress.com/WPF/6194/controls-and-libraries/ribbon-bars-and-menu/bars?p=netframework)
+* [Bars Overview](https://docs.devexpress.com/WPF/6194/controls-and-libraries/ribbon-bars-and-menu/bars)
 
 ## More Examples
 
